@@ -1,0 +1,268 @@
+header {
+  background-image: url(https://res.cloudinary.com/dnb6x004q/image/upload/v1716287039/Viatours/Section_image_vgemeb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+  height: 35rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+}
+
+.logo {
+  display: flex;
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.right-nav a {
+  margin-right: 20px;
+}
+
+.left-nav a {
+  float: right;
+  margin-top: 0;
+}
+.hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+input {
+  border-radius: 20px;
+  border: 0.5px solid grey;
+  padding: 16px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cirlce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card img {
+  width: 20%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-content {
+  padding: 15px;
+}
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.rating {
+  color: #f8b400;
+  font-weight: bold;
+}
+.price {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.ball-bar {
+  height: 30px;
+  width: 30px;
+
+  background-color: white;
+  border-radius: 50px;
+  z-index: 1;
+  position: absolute;
+  top: 198px;
+  left: 250px;
+}
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.rating {
+  color: #f8b400;
+  font-weight: bold;
+}
+.price {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.overlay-card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: none;
+}
+.card-act {
+  position: relative;
+  width: 300px;
+  border-radius: 10px;
+}
+.card-act img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.overlay h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.overlay p {
+  font-size: 16px;
+}
+
+.overlay-btn {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+}
+
+.tours {
+  background-color: lightpink;
+  margin-top: 20px;
+}
+
+.tour-card1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 20%;
+  margin-left: 500px;
+}
+
+.tour-card2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 20%;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  border: none;
+}
+.tourz {
+  background-color: lightpink;
+  width: 80%;
+}
+.tourz-img {
+  display: flex;
+  justify-content: right;
+  padding-right: 200px;
+  align-items: center;
+  transform: translate(0, 3%);
+  padding-left: 105%;
+}
+.why {
+  padding-left: 10%;
+  transform: translate(0, 50%);
+}
+
+.tourz-header {
+  padding-left: 170px;
+  transform: translate(0, 300%);
+}
+.img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transform: translate(0, 40%);
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+  border: none;
+  margin-top: 100px;
+}
+
+.flexible {
+  background-image: url(https://res.cloudinary.com/dnb6x004q/image/upload/v1716288159/Viatours/Section_image_3_wddt0x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+  height: 35rem;
+  transform: translate(0, 40%);
+}
+.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 70px;
+  transform: translate(0, 150%);
+}
+.pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transform: translate(0, 300%);
+}
+.img-vec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
