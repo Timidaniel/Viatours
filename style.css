@@ -62,19 +62,27 @@ input {
   justify-content: center;
 }
 .card {
-  width: 100px;
+  /* width: 100px; */
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: none;
 }
 .card img {
-  width: 20%;
+  width: 90%;
   height: 200px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .card-content {
   padding: 15px;
 }
+.card-text {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0  */
+}
+
 h2 {
   font-size: 18px;
   margin-top: 0;
@@ -170,6 +178,19 @@ p {
   margin-top: 20px;
 }
 
+.stone {
+  padding-left: 200px;
+  transform: translate(0, 130%);
+}
+
+.see {
+  color: white;
+}
+.tour-btn {
+  background-color: #eb662b;
+  padding: 13px 80px;
+  border-radius: 15px;
+}
 .tour-card1 {
   display: flex;
   gap: 10px;
@@ -177,7 +198,7 @@ p {
   justify-content: center;
   background-color: white;
   width: 20%;
-  margin-left: 500px;
+  margin-left: 800px;
 }
 
 .tour-card2 {
@@ -187,7 +208,7 @@ p {
   justify-content: center;
   background-color: white;
   width: 20%;
-  margin-left: 500px;
+  margin-left: 800px;
   margin-top: 50px;
 }
 
@@ -198,21 +219,29 @@ p {
   gap: 20px;
   border: none;
 }
+
+.des {
+  padding-left: 50px;
+  transform: translate(0, 300%);
+}
 .tourz {
   background-color: lightpink;
-  width: 80%;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-attachment: absolute; */
+  height: 75rem;
+  width: 78%;
 }
 .tourz-img {
-  display: flex;
-  justify-content: right;
-  padding-right: 200px;
-  align-items: center;
-  transform: translate(0, 3%);
-  padding-left: 105%;
+  padding-left: 500px;
+  /* margin: 100px; */
+  /* margin-bottom: 15000px; */
+  /* padding-bottom: 5000px; */
 }
 .why {
   padding-left: 10%;
-  transform: translate(0, 50%);
+  transform: translate(0, 30%);
 }
 
 .tourz-header {
@@ -242,7 +271,7 @@ p {
   background-size: cover;
   background-attachment: absolute;
   height: 35rem;
-  transform: translate(0, 40%);
+  /* transform: translate(0, 40%); */
 }
 .in {
   display: flex;
@@ -265,4 +294,116 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
+}
+
+.trav {
+  background-color: rgb(248, 233, 235);
+  padding-left: 10px;
+  display: flex;
+  border: none;
+  height: 36rem;
+}
+
+.header {
+  position: absolute;
+  left: 20px;
+  transform: translate(0, 0.5%);
+  padding-left: 80px;
+  margin-top: 30px;
+}
+
+.our {
+  padding-left: 40px;
+  margin: 10px;
+}
+
+.work {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 140px;
+}
+
+.work h3 {
+  margin-left: 15px;
+}
+
+.work p {
+  margin-left: 15px;
+}
+.user-info img {
+  margin-left: 6px;
+}
+.art {
+  padding-left: 80px;
+  transform: translate(0, 300%);
+}
+.all {
+  padding-left: 1300px;
+  padding-top: 36px;
+}
+.destinations {
+  margin-top: 100px;
+}
+
+.mail {
+  background-image: url(https://res.cloudinary.com/dnb6x004q/image/upload/v1716288295/Viatours/Section_image_4_nggaj4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: absolute;
+  height: 35rem;
+}
+
+.update {
+  padding-left: 200px;
+  transform: translate(0, 100%);
+}
+
+.update input {
+  background-color: transparent;
+  border-radius: 8px;
+  border: none;
+}
+
+.sub {
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 8px;
+}
+.sub-put {
+  border: 1px solid gray;
+  width: 20rem;
+  display: flex;
+  background-color: #ffffff93;
+  border-radius: 8px;
+  border: none;
+}
+
+.comp {
+  /* height: 36rem; */
+  background-color: #05073c;
+}
+
+.text-comp {
+  color: white;
+}
+
+.put input {
+  padding-right: 100px;
+}
+.sign {
+  padding-left: 900px;
+}
+
+.street {
+  padding-left: 100px;
+  padding-top: 90px;
+}
+
+.maps {
+  display: flex;
+  flex-direction: column;
+  padding-left: 600px;
+  padding-top: 1px;
+  margin: none;
 }
